@@ -1,3 +1,4 @@
 /chromium.pem
 /pack-m3u8-capture.cmd
 /pack-m3u8-capture.ps1
+/scripts/gen-readmes.py

@@ -2,11 +2,21 @@
 
 Companion extension for [Internet File Downloader](https://app.zhi200bbs.com/apps/internetfiledownloader). Find m3u8 links on web pages, parse playlists, and send selected items to the desktop app.
 
+## Languages
+
+| | |
+|--|--|
 | English | [README.en.md](README.en.md) |
+| 简体中文 | [README.zh_CN.md](README.zh_CN.md) |
+| 繁體中文 | [README.zh_TW.md](README.zh_TW.md) |
+| Español … Filipino | [README.es.md](README.es.md) … [README.fil.md](README.fil.md) |
+| Italiano | [README.it.md](README.it.md) |
+| Português (Brasil) | [README.pt_BR.md](README.pt_BR.md) |
 
 ## Before you start
 
-Install and run **Internet File Downloader**: https://app.zhi200bbs.com/apps/internetfiledownloader
+1. Install and run **Internet File Downloader** on your PC: https://app.zhi200bbs.com/apps/internetfiledownloader  
+2. Keep the **browser helper / bridge** enabled (default port **26519**).
 
 ## Install — Google Chrome
 
@@ -35,10 +45,10 @@ Install and run **Internet File Downloader**: https://app.zhi200bbs.com/apps/int
 
 ## Usage
 
-1. Select text that contains one or more links.  
-2. Right-click → **Capture m3u8 from selected links**.  
-3. On the media list page, choose items and click **Download** to send them to Internet File Downloader.  
-4. You can also right-click a single m3u8 link → **Download this m3u8 with Internet File Downloader**.
+1. Select text that contains one or more links → right-click → **Capture m3u8 from selected links** → choose items → **Download**.  
+2. Right-click a single m3u8 link → **Download this m3u8 with Internet File Downloader**.  
+3. Use the on-page panel when streams are detected on a page.  
+4. Open extension **Settings** for bridge port and optional headers.
 
 ## License
 
