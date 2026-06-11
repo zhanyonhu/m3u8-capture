@@ -1,0 +1,57 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.8",
+  "incognito": "spanning",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/ifd-logo-16.png",
+    "32": "icons/ifd-logo-32.png",
+    "48": "icons/ifd-logo-48.png",
+    "128": "icons/ifd-logo-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ifd-m3u8-capture@ifd.local",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["websiteContent", "websiteActivity"],
+        "optional": ["authenticationInfo"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "cookies",
+    "webRequest",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["ifd-storage-bridge.js", "background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "16": "icons/ifd-logo-16.png",
+      "32": "icons/ifd-logo-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-capture.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

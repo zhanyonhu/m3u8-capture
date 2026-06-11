@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD Cattura M3U8"
+  },
+  "extDescription": {
+    "message": "Cattura link m3u8 dai link selezionati, analizza la lista media e invia gli elementi scelti a Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "Scarica questo m3u8 con Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Cattura m3u8 dai link selezionati"
+  },
+  "capture_no_m3u8_found": {
+    "message": "Nessun link m3u8 trovato nei link selezionati o nelle relative richieste pagina."
+  },
+  "capture_parse_failed": {
+    "message": "Analisi non riuscita"
+  },
+  "capture_page_title": {
+    "message": "Elenco media M3U8"
+  },
+  "capture_page_desc": {
+    "message": "Seleziona un elemento e fai clic su scarica per inviarlo a Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Dati di cattura mancanti. Esegui di nuovo la cattura dalla pagina web."
+  },
+  "capture_no_items": {
+    "message": "Nessun elemento media trovato."
+  },
+  "capture_source": {
+    "message": "Sorgente"
+  },
+  "capture_download_btn": {
+    "message": "Scarica"
+  },
+  "capture_sent_btn": {
+    "message": "Inviato"
+  },
+  "live_panel_title": {
+    "message": "File video catturato"
+  },
+  "live_download_btn": {
+    "message": "Scarica"
+  },
+  "live_sent_btn": {
+    "message": "Inviato"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 dai link selezionati"
+  },
+  "selection_pick_label": {
+    "message": "Scelta per pagina"
+  },
+  "selection_pick_n": {
+    "message": "N. {n}"
+  },
+  "selection_select_all": {
+    "message": "Seleziona tutto"
+  },
+  "selection_clear_all": {
+    "message": "Cancella"
+  },
+  "selection_batch_download": {
+    "message": "Download in batch"
+  },
+  "selection_probe_progress": {
+    "message": "Analisi link... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Analisi completata"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — impostazioni"
+  },
+  "optionsBridgeHeading": {
+    "message": "Impostazioni bridge"
+  },
+  "optionsBridgeIntro": {
+    "message": "Imposta la stessa porta bridge dell'app desktop. Predefinita: 26519."
+  },
+  "labelBridgePort": {
+    "message": "Porto del ponte"
+  },
+  "hintBridgePort": {
+    "message": "Deve corrispondere alla porta dell'helper del browser dell'app. Il valore predefinito è 26519."
+  },
+  "headingPrivacy": {
+    "message": "Inoltrato all'app"
+  },
+  "introPrivacy": {
+    "message": "Opzionale. Abilitalo solo se un sito richiede la stessa identità del browser o cookie di accesso per il download."
+  },
+  "labelSendUa": {
+    "message": "Includi User-Agent quando invii un download all'app"
+  },
+  "hintSendUa": {
+    "message": "Disattivato per impostazione predefinita. Attiva se il server rifiuta le richieste senza una firma del browser corrispondente."
+  },
+  "labelSendCookie": {
+    "message": "Includi i cookie quando invii un download all'app"
+  },
+  "hintSendCookie": {
+    "message": "Disattivato per impostazione predefinita. Attiva per i download con accesso effettuato. I dati vengono inviati solo all'app su questo computer."
+  },
+  "labelSendReferer": {
+    "message": "Includi Referer quando invii un download all'app"
+  },
+  "hintSendReferer": {
+    "message": "Attivo per impostazione predefinita. Aiuta i siti a convalidare l'origine della richiesta."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Le modifiche si applicano subito dopo il salvataggio."
+  },
+  "btnSave": {
+    "message": "Salva"
+  },
+  "statusSaved": {
+    "message": "Salvato"
+  },
+  "statusSaveError": {
+    "message": "Impossibile salvare le impostazioni. Per favore riprova."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "extName": { "message": "IFD M3U8 擷取擴充功能" },
+  "extDescription": { "message": "從選取連結擷取 m3u8 連結、解析媒體清單，並將選取項目傳送到 Internet File Downloader。" },
+  "ctx_download_m3u8_link": { "message": "使用 Internet File Downloader 下載此 m3u8" },
+  "ctx_capture_m3u8_link": { "message": "捕獲m3u8" },
+  "ctx_capture_m3u8_selection": { "message": "從選取連結擷取 m3u8" },
+  "capture_no_m3u8_found": { "message": "在選取連結及其頁面請求中找不到 m3u8 連結。" },
+  "capture_parse_failed": { "message": "解析失敗" },
+  "capture_page_title": { "message": "M3U8 媒體清單" },
+  "capture_page_desc": { "message": "請選擇項目並點擊下載，將其傳送到 Internet File Downloader。" },
+  "capture_missing_data": { "message": "找不到擷取資料，請回到網頁重新擷取。" },
+  "capture_no_items": { "message": "未找到可下載的媒體項目。" },
+  "capture_source": { "message": "來源" },
+  "capture_download_btn": { "message": "下載" },
+  "capture_sent_btn": { "message": "已傳送" },
+  "live_panel_title": { "message": "已擷取到影片檔案" },
+  "live_download_btn": { "message": "下載" },
+  "live_sent_btn": { "message": "已傳送" },
+  "selection_panel_title": { "message": "選取連結的 M3U8 清單" },
+  "selection_pick_label": { "message": "每頁選擇第幾個" },
+  "selection_pick_n": { "message": "第 {n} 個" },
+  "selection_select_all": { "message": "全選" },
+  "selection_clear_all": { "message": "清空" },
+  "selection_batch_download": { "message": "批量下載" },
+  "selection_probe_progress": { "message": "正在探測連結...（{done}/{total}）" },
+  "selection_probe_done": { "message": "探測完成" },
+  "optionsTitle": { "message": "IFD M3U8 擷取擴充功能 — 設定" },
+  "optionsBridgeHeading": { "message": "橋接設定" },
+  "optionsBridgeIntro": { "message": "請與桌面程式使用相同橋接連接埠。預設為 26519。" },
+  "labelBridgePort": { "message": "橋接連接埠" },
+  "hintBridgePort": {
+    "message": "必須與桌面程式「瀏覽器輔助」頁面的連接埠一致。預設為 26519。"
+  },
+  "headingPrivacy": { "message": "傳送到本程式時" },
+  "introPrivacy": {
+    "message": "以下兩項預設關閉。僅在站台校驗瀏覽器識別，或需要登入 Cookie 才能下載時再開啟。"
+  },
+  "labelSendUa": { "message": "傳送下載時附帶 User-Agent（瀏覽器識別）" },
+  "hintSendUa": { "message": "預設關閉。若伺服器不接受與瀏覽器不一致的 UA，可開啟。" },
+  "labelSendCookie": { "message": "傳送下載時附帶 Cookie（登入狀態）" },
+  "hintSendCookie": {
+    "message": "預設關閉。需登入後方可下載時再開啟；資料僅傳送到本機程式，不向公開網路上傳。"
+  },
+  "labelSendReferer": { "message": "傳送下載時附帶 Referer（來源頁面）" },
+  "hintSendReferer": { "message": "預設開啟。可協助網站驗證請求來源，提高下載成功率。" },
+  "optionsBridgeHintApply": { "message": "儲存後立即生效。" },
+  "btnSave": { "message": "儲存" },
+  "statusSaved": { "message": "已儲存" },
+  "statusSaveError": { "message": "無法儲存設定，請稍後再試。" }
+}

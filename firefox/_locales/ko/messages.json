@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD M3U8 캡처"
+  },
+  "extDescription": {
+    "message": "선택한 링크에서 m3u8 링크를 캡처하고 미디어 목록을 분석해 선택 항목을 Internet File Downloader로 보냅니다."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "이 m3u8을 Internet File Downloader로 다운로드"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "선택한 링크에서 m3u8 캡처"
+  },
+  "capture_no_m3u8_found": {
+    "message": "선택한 링크 또는 해당 페이지 요청에서 m3u8 링크를 찾지 못했습니다."
+  },
+  "capture_parse_failed": {
+    "message": "분석 실패"
+  },
+  "capture_page_title": {
+    "message": "M3U8 미디어 목록"
+  },
+  "capture_page_desc": {
+    "message": "항목을 선택한 후 다운로드를 누르면 Internet File Downloader로 전송됩니다."
+  },
+  "capture_missing_data": {
+    "message": "캡처 데이터가 없습니다. 웹페이지에서 다시 캡처해 주세요."
+  },
+  "capture_no_items": {
+    "message": "미디어 항목을 찾지 못했습니다."
+  },
+  "capture_source": {
+    "message": "출처"
+  },
+  "capture_download_btn": {
+    "message": "다운로드"
+  },
+  "capture_sent_btn": {
+    "message": "전송됨"
+  },
+  "live_panel_title": {
+    "message": "캡처된 비디오 파일"
+  },
+  "live_download_btn": {
+    "message": "다운로드"
+  },
+  "live_sent_btn": {
+    "message": "전송됨"
+  },
+  "selection_panel_title": {
+    "message": "선택한 링크의 M3U8"
+  },
+  "selection_pick_label": {
+    "message": "페이지별 선택"
+  },
+  "selection_pick_n": {
+    "message": "번호 {n}"
+  },
+  "selection_select_all": {
+    "message": "전체 선택"
+  },
+  "selection_clear_all": {
+    "message": "지우기"
+  },
+  "selection_batch_download": {
+    "message": "일괄 다운로드"
+  },
+  "selection_probe_progress": {
+    "message": "링크 분석 중... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "분석 완료"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — 설정"
+  },
+  "optionsBridgeHeading": {
+    "message": "브리지 설정"
+  },
+  "optionsBridgeIntro": {
+    "message": "데스크톱 앱과 동일한 브리지 포트를 설정하세요. 기본값: 26519."
+  },
+  "labelBridgePort": {
+    "message": "브리지 포트"
+  },
+  "hintBridgePort": {
+    "message": "앱 브라우저 도우미 포트와 일치해야 합니다. 기본값은 26519입니다."
+  },
+  "headingPrivacy": {
+    "message": "앱으로 전달됨"
+  },
+  "introPrivacy": {
+    "message": "선택 과목. 사이트에서 다운로드를 위해 동일한 브라우저 ID 또는 로그인 쿠키를 요구하는 경우에만 활성화하십시오."
+  },
+  "labelSendUa": {
+    "message": "앱에 다운로드를 보낼 때 User-Agent를 포함합니다."
+  },
+  "hintSendUa": {
+    "message": "기본적으로 꺼져 있습니다. 서버가 일치하는 브라우저 서명이 없는 요청을 거부하는 경우 켜집니다."
+  },
+  "labelSendCookie": {
+    "message": "앱에 다운로드를 보낼 때 쿠키 포함"
+  },
+  "hintSendCookie": {
+    "message": "기본적으로 꺼져 있습니다. 로그인한 상태로 다운로드하려면 켜세요. 데이터는 이 컴퓨터의 앱에만 전송됩니다."
+  },
+  "labelSendReferer": {
+    "message": "앱에 다운로드를 보낼 때 참조자 포함"
+  },
+  "hintSendReferer": {
+    "message": "기본적으로 켜져 있습니다. 사이트에서 요청 소스를 검증하는 데 도움이 됩니다."
+  },
+  "optionsBridgeHintApply": {
+    "message": "저장 후 즉시 적용됩니다."
+  },
+  "btnSave": {
+    "message": "구하다"
+  },
+  "statusSaved": {
+    "message": "저장됨"
+  },
+  "statusSaveError": {
+    "message": "설정을 저장할 수 없습니다. 다시 시도해 주세요."
+  }
+}

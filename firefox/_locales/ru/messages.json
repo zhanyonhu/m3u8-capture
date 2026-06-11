@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD Захват M3U8"
+  },
+  "extDescription": {
+    "message": "Захватывает m3u8-ссылки из выбранных ссылок, анализирует медиалист и отправляет выбранные элементы в Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "Скачать этот m3u8 через Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Захватить m3u8 из выбранных ссылок"
+  },
+  "capture_no_m3u8_found": {
+    "message": "Ссылки m3u8 не найдены в выбранных ссылках или запросах страниц."
+  },
+  "capture_parse_failed": {
+    "message": "Ошибка разбора"
+  },
+  "capture_page_title": {
+    "message": "Список медиа M3U8"
+  },
+  "capture_page_desc": {
+    "message": "Выберите элемент и нажмите скачать, чтобы отправить его в Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Данные захвата отсутствуют. Повторите захват со страницы."
+  },
+  "capture_no_items": {
+    "message": "Медиаэлементы не найдены."
+  },
+  "capture_source": {
+    "message": "Источник"
+  },
+  "capture_download_btn": {
+    "message": "Скачать"
+  },
+  "capture_sent_btn": {
+    "message": "Отправлено"
+  },
+  "live_panel_title": {
+    "message": "Захваченный видеофайл"
+  },
+  "live_download_btn": {
+    "message": "Скачать"
+  },
+  "live_sent_btn": {
+    "message": "Отправлено"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 из выбранных ссылок"
+  },
+  "selection_pick_label": {
+    "message": "Выбор по странице"
+  },
+  "selection_pick_n": {
+    "message": "№ {n}"
+  },
+  "selection_select_all": {
+    "message": "Выбрать все"
+  },
+  "selection_clear_all": {
+    "message": "Очистить"
+  },
+  "selection_batch_download": {
+    "message": "Пакетная загрузка"
+  },
+  "selection_probe_progress": {
+    "message": "Проверка ссылок... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Проверка завершена"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — настройки"
+  },
+  "optionsBridgeHeading": {
+    "message": "Настройки моста"
+  },
+  "optionsBridgeIntro": {
+    "message": "Укажите тот же порт моста, что и в десктопном приложении. По умолчанию: 26519."
+  },
+  "labelBridgePort": {
+    "message": "Мост-порт"
+  },
+  "hintBridgePort": {
+    "message": "Должен соответствовать вспомогательному порту браузера приложения. По умолчанию — 26519."
+  },
+  "headingPrivacy": {
+    "message": "Перенаправлено в приложение"
+  },
+  "introPrivacy": {
+    "message": "Необязательный. Включайте только в том случае, если сайт требует ту же идентификацию браузера или файлы cookie для входа в систему для загрузки."
+  },
+  "labelSendUa": {
+    "message": "Включить User-Agent при отправке загрузки в приложение."
+  },
+  "hintSendUa": {
+    "message": "По умолчанию выключено. Включите, если сервер отклоняет запросы без соответствующей подписи браузера."
+  },
+  "labelSendCookie": {
+    "message": "Включайте файлы cookie при отправке загрузки в приложение."
+  },
+  "hintSendCookie": {
+    "message": "По умолчанию выключено. Включите загрузку с входом в систему. Данные отправляются только в приложение на этом компьютере."
+  },
+  "labelSendReferer": {
+    "message": "Включить Referer при отправке загрузки в приложение"
+  },
+  "hintSendReferer": {
+    "message": "Включено по умолчанию. Помогает сайтам проверить источник запроса."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Изменения применяются сразу после сохранения."
+  },
+  "btnSave": {
+    "message": "Сохранять"
+  },
+  "statusSaved": {
+    "message": "Сохранено"
+  },
+  "statusSaveError": {
+    "message": "Не удалось сохранить настройки. Пожалуйста, попробуйте еще раз."
+  }
+}

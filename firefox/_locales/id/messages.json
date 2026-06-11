@@ -1,0 +1,128 @@
+{
+  "extName": {
+    "message": "IFD Tangkap M3U8"
+  },
+  "extDescription": {
+    "message": "Tangkap tautan m3u8 dari tautan terpilih, parsing daftar media, dan kirim item ke Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "Unduh m3u8 ini dengan Internet File Downloader"
+  },
+  "ctx_capture_m3u8_link": {
+    "message": "Tangkap m3u8"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Tangkap m3u8 dari tautan terpilih"
+  },
+  "capture_no_m3u8_found": {
+    "message": "Tidak ada tautan m3u8 pada tautan terpilih atau permintaan halamannya."
+  },
+  "capture_parse_failed": {
+    "message": "Parsing gagal"
+  },
+  "capture_page_title": {
+    "message": "Daftar media M3U8"
+  },
+  "capture_page_desc": {
+    "message": "Pilih item lalu klik unduh untuk mengirimnya ke Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Data tangkapan hilang. Jalankan tangkapan lagi dari halaman web."
+  },
+  "capture_no_items": {
+    "message": "Tidak ada item media ditemukan."
+  },
+  "capture_source": {
+    "message": "Sumber"
+  },
+  "capture_download_btn": {
+    "message": "Unduh"
+  },
+  "capture_sent_btn": {
+    "message": "Terkirim"
+  },
+  "live_panel_title": {
+    "message": "File video tertangkap"
+  },
+  "live_download_btn": {
+    "message": "Unduh"
+  },
+  "live_sent_btn": {
+    "message": "Terkirim"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 dari tautan terpilih"
+  },
+  "selection_pick_label": {
+    "message": "Pilih per halaman"
+  },
+  "selection_pick_n": {
+    "message": "No.{n}"
+  },
+  "selection_select_all": {
+    "message": "Pilih semua"
+  },
+  "selection_clear_all": {
+    "message": "Kosongkan"
+  },
+  "selection_batch_download": {
+    "message": "Unduh batch"
+  },
+  "selection_probe_progress": {
+    "message": "Memeriksa tautan... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Pemeriksaan selesai"
+  },
+  "optionsTitle": {
+    "message": "IFD Tangkap M3U8 — pengaturan"
+  },
+  "optionsBridgeHeading": {
+    "message": "Pengaturan jembatan"
+  },
+  "optionsBridgeIntro": {
+    "message": "Atur port jembatan yang sama dengan aplikasi desktop. Default 26519."
+  },
+  "labelBridgePort": {
+    "message": "Port jembatan"
+  },
+  "hintBridgePort": {
+    "message": "Harus sama dengan port pembantu browser aplikasi. Default adalah 26519."
+  },
+  "headingPrivacy": {
+    "message": "Diteruskan ke aplikasi"
+  },
+  "introPrivacy": {
+    "message": "Opsional. Aktifkan hanya jika situs memerlukan identitas browser atau cookie login yang sama untuk unduhan."
+  },
+  "labelSendUa": {
+    "message": "Sertakan User-Agent saat mengirim unduhan ke aplikasi"
+  },
+  "hintSendUa": {
+    "message": "Nonaktif secara default. Aktifkan jika server menolak permintaan tanpa tanda tangan browser yang cocok."
+  },
+  "labelSendCookie": {
+    "message": "Sertakan cookie saat mengirim unduhan ke aplikasi"
+  },
+  "hintSendCookie": {
+    "message": "Nonaktif secara default. Aktifkan untuk unduhan setelah login. Data hanya dikirim ke aplikasi di komputer ini."
+  },
+  "labelSendReferer": {
+    "message": "Sertakan Referer saat mengirim unduhan ke aplikasi"
+  },
+  "hintSendReferer": {
+    "message": "Aktif secara default. Membantu situs memvalidasi sumber permintaan."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Perubahan berlaku segera setelah disimpan."
+  },
+  "btnSave": {
+    "message": "Simpan"
+  },
+  "statusSaved": {
+    "message": "Tersimpan"
+  },
+  "statusSaveError": {
+    "message": "Tidak dapat menyimpan pengaturan. Coba lagi."
+  }
+}

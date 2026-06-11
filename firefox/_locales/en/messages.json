@@ -1,0 +1,52 @@
+{
+  "extName": { "message": "IFD M3U8 Capture" },
+  "extDescription": { "message": "Capture m3u8 links from selected links, parse media list, and send selected items to Internet File Downloader." },
+  "ctx_download_m3u8_link": { "message": "Download this m3u8 with Internet File Downloader" },
+  "ctx_capture_m3u8_link": { "message": "Capture m3u8" },
+  "ctx_capture_m3u8_selection": { "message": "Capture m3u8 from selected links" },
+  "capture_no_m3u8_found": { "message": "No m3u8 links found in selected links or their page requests." },
+  "capture_parse_failed": { "message": "Parse failed" },
+  "capture_page_title": { "message": "M3U8 Media List" },
+  "capture_page_desc": { "message": "Select an item and click download to send it to Internet File Downloader." },
+  "capture_missing_data": { "message": "Capture data is missing. Please run capture again from the webpage." },
+  "capture_no_items": { "message": "No media items were found." },
+  "capture_source": { "message": "Source" },
+  "capture_download_btn": { "message": "Download" },
+  "capture_sent_btn": { "message": "Sent" },
+  "live_panel_title": { "message": "Captured video file" },
+  "live_download_btn": { "message": "Download" },
+  "live_sent_btn": { "message": "Sent" },
+  "selection_panel_title": { "message": "M3U8 from selected links" },
+  "selection_pick_label": { "message": "Pick per page" },
+  "selection_pick_n": { "message": "No.{n}" },
+  "selection_select_all": { "message": "Select all" },
+  "selection_clear_all": { "message": "Clear" },
+  "selection_batch_download": { "message": "Batch download" },
+  "selection_probe_progress": { "message": "Probing links... ({done}/{total})" },
+  "selection_probe_done": { "message": "Probe complete" },
+  "optionsTitle": { "message": "IFD M3U8 Capture — settings" },
+  "optionsBridgeHeading": { "message": "Bridge settings" },
+  "optionsBridgeIntro": { "message": "Set the same bridge port as the desktop app. Default is 26519." },
+  "labelBridgePort": { "message": "Bridge port" },
+  "hintBridgePort": {
+    "message": "Must match the app Browser helper port. Default is 26519."
+  },
+  "headingPrivacy": { "message": "Forwarded to the app" },
+  "introPrivacy": {
+    "message": "Optional. Only enable if a site requires the same browser identity or login cookies for the download."
+  },
+  "labelSendUa": { "message": "Include User-Agent when sending a download to the app" },
+  "hintSendUa": {
+    "message": "Off by default. Turn on if the server rejects requests without a matching browser signature."
+  },
+  "labelSendCookie": { "message": "Include cookies when sending a download to the app" },
+  "hintSendCookie": {
+    "message": "Off by default. Turn on for signed-in downloads. Data is sent only to the app on this computer."
+  },
+  "labelSendReferer": { "message": "Include Referer when sending a download to the app" },
+  "hintSendReferer": { "message": "On by default. Helps sites validate the request source." },
+  "optionsBridgeHintApply": { "message": "Changes apply immediately after saving." },
+  "btnSave": { "message": "Save" },
+  "statusSaved": { "message": "Saved" },
+  "statusSaveError": { "message": "Could not save settings. Try again." }
+}

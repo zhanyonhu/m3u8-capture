@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD Captura M3U8"
+  },
+  "extDescription": {
+    "message": "Captura enlaces m3u8 desde enlaces seleccionados, analiza la lista multimedia y envía los elementos elegidos a Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "Descargar este m3u8 con Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Capturar m3u8 desde enlaces seleccionados"
+  },
+  "capture_no_m3u8_found": {
+    "message": "No se encontraron enlaces m3u8 en los enlaces seleccionados ni en sus solicitudes de página."
+  },
+  "capture_parse_failed": {
+    "message": "Error de análisis"
+  },
+  "capture_page_title": {
+    "message": "Lista multimedia M3U8"
+  },
+  "capture_page_desc": {
+    "message": "Selecciona un elemento y haz clic en descargar para enviarlo a Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Faltan datos de captura. Vuelve a ejecutar la captura desde la página web."
+  },
+  "capture_no_items": {
+    "message": "No se encontraron elementos multimedia."
+  },
+  "capture_source": {
+    "message": "Origen"
+  },
+  "capture_download_btn": {
+    "message": "Descargar"
+  },
+  "capture_sent_btn": {
+    "message": "Enviado"
+  },
+  "live_panel_title": {
+    "message": "Archivo de video capturado"
+  },
+  "live_download_btn": {
+    "message": "Descargar"
+  },
+  "live_sent_btn": {
+    "message": "Enviado"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 de enlaces seleccionados"
+  },
+  "selection_pick_label": {
+    "message": "Elegir por página"
+  },
+  "selection_pick_n": {
+    "message": "N.º {n}"
+  },
+  "selection_select_all": {
+    "message": "Seleccionar todo"
+  },
+  "selection_clear_all": {
+    "message": "Limpiar"
+  },
+  "selection_batch_download": {
+    "message": "Descarga por lotes"
+  },
+  "selection_probe_progress": {
+    "message": "Analizando enlaces... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Análisis completo"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — configuración"
+  },
+  "optionsBridgeHeading": {
+    "message": "Configuración del puente"
+  },
+  "optionsBridgeIntro": {
+    "message": "Configura el mismo puerto del puente que la app de escritorio. Predeterminado: 26519."
+  },
+  "labelBridgePort": {
+    "message": "Puerto puente"
+  },
+  "hintBridgePort": {
+    "message": "Debe coincidir con el puerto auxiliar del navegador de la aplicación. El valor predeterminado es 26519."
+  },
+  "headingPrivacy": {
+    "message": "Reenviado a la aplicación"
+  },
+  "introPrivacy": {
+    "message": "Opcional. Habilítelo solo si un sitio requiere la misma identidad del navegador o cookies de inicio de sesión para la descarga."
+  },
+  "labelSendUa": {
+    "message": "Incluir User-Agent al enviar una descarga a la aplicación"
+  },
+  "hintSendUa": {
+    "message": "Desactivado de forma predeterminada. Actívelo si el servidor rechaza solicitudes sin una firma del navegador coincidente."
+  },
+  "labelSendCookie": {
+    "message": "Incluir cookies al enviar una descarga a la aplicación"
+  },
+  "hintSendCookie": {
+    "message": "Desactivado de forma predeterminada. Actívelo para descargas iniciadas. Los datos se envían únicamente a la aplicación en esta computadora."
+  },
+  "labelSendReferer": {
+    "message": "Incluir Referer al enviar una descarga a la aplicación"
+  },
+  "hintSendReferer": {
+    "message": "Activado de forma predeterminada. Ayuda a los sitios a validar la fuente de la solicitud."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Los cambios se aplican inmediatamente después de guardar."
+  },
+  "btnSave": {
+    "message": "Ahorrar"
+  },
+  "statusSaved": {
+    "message": "Guardado"
+  },
+  "statusSaveError": {
+    "message": "No se pudo guardar la configuración. Por favor inténtalo de nuevo."
+  }
+}

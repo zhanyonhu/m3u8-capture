@@ -1,0 +1,50 @@
+{
+  "extName": { "message": "IFD M3U8 捕获扩展" },
+  "extDescription": { "message": "从选中链接中捕获 m3u8 链接，解析媒体列表，并将选中项发送到 Internet File Downloader。" },
+  "ctx_download_m3u8_link": { "message": "使用 Internet File Downloader 下载此 m3u8" },
+  "ctx_capture_m3u8_link": { "message": "捕获m3u8" },
+  "ctx_capture_m3u8_selection": { "message": "从选中链接捕获 m3u8" },
+  "capture_no_m3u8_found": { "message": "未在选中链接及其页面请求中找到 m3u8 链接。" },
+  "capture_parse_failed": { "message": "解析失败" },
+  "capture_page_title": { "message": "M3U8 媒体列表" },
+  "capture_page_desc": { "message": "请选择一项并点击下载，将其发送到 Internet File Downloader。" },
+  "capture_missing_data": { "message": "捕获数据不存在，请回到网页重新捕获。" },
+  "capture_no_items": { "message": "未找到可下载的媒体项。" },
+  "capture_source": { "message": "来源" },
+  "capture_download_btn": { "message": "下载" },
+  "capture_sent_btn": { "message": "已发送" },
+  "live_panel_title": { "message": "已捕获到视频文件" },
+  "live_download_btn": { "message": "下载" },
+  "live_sent_btn": { "message": "已发送" },
+  "selection_panel_title": { "message": "选中链接的 M3U8 列表" },
+  "selection_pick_label": { "message": "每页选择第几个" },
+  "selection_pick_n": { "message": "第 {n} 个" },
+  "selection_select_all": { "message": "全选" },
+  "selection_clear_all": { "message": "清空" },
+  "selection_batch_download": { "message": "批量下载" },
+  "selection_probe_progress": { "message": "正在探测链接...（{done}/{total}）" },
+  "selection_probe_done": { "message": "探测完成" },
+  "optionsTitle": { "message": "IFD M3U8 捕获扩展 — 设置" },
+  "optionsBridgeHeading": { "message": "桥接设置" },
+  "optionsBridgeIntro": { "message": "请与桌面程序使用相同桥接端口。默认 26519。" },
+  "labelBridgePort": { "message": "桥接端口" },
+  "hintBridgePort": {
+    "message": "必须与客户端「浏览器辅助」页中的连接端口一致。默认 26519。"
+  },
+  "headingPrivacy": { "message": "发送到本程序时" },
+  "introPrivacy": {
+    "message": "以下两项默认关闭。仅在站点校验浏览器标识，或需要登录 Cookie 才可下载时再开启。"
+  },
+  "labelSendUa": { "message": "发送下载时附带 User-Agent（浏览器标识）" },
+  "hintSendUa": { "message": "默认关闭。若服务器不接受与浏览器不一致的 UA，可开启。" },
+  "labelSendCookie": { "message": "发送下载时附带 Cookie（登录状态）" },
+  "hintSendCookie": {
+    "message": "默认关闭。需登录后方可下载时再开启；数据仅发送到本机客户端，不向公网上传。"
+  },
+  "labelSendReferer": { "message": "发送下载时附带 Referer（来源页面）" },
+  "hintSendReferer": { "message": "默认开启。可帮助网站验证请求来源，提高下载成功率。" },
+  "optionsBridgeHintApply": { "message": "保存后立即生效。" },
+  "btnSave": { "message": "保存" },
+  "statusSaved": { "message": "已保存" },
+  "statusSaveError": { "message": "无法保存设置，请稍后重试。" }
+}

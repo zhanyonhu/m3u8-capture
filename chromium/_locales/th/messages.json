@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD M3U8 ตัวช่วยจับลิงก์"
+  },
+  "extDescription": {
+    "message": "จับลิงก์ m3u8 จากลิงก์ที่เลือก วิเคราะห์รายการสื่อ และส่งรายการที่เลือกไปยัง Internet File Downloader"
+  },
+  "ctx_download_m3u8_link": {
+    "message": "ดาวน์โหลด m3u8 นี้ด้วย Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "จับ m3u8 จากลิงก์ที่เลือก"
+  },
+  "capture_no_m3u8_found": {
+    "message": "ไม่พบลิงก์ m3u8 ในลิงก์ที่เลือกหรือคำขอของหน้า"
+  },
+  "capture_parse_failed": {
+    "message": "วิเคราะห์ไม่สำเร็จ"
+  },
+  "capture_page_title": {
+    "message": "รายการสื่อ M3U8"
+  },
+  "capture_page_desc": {
+    "message": "เลือกหนึ่งรายการแล้วกดดาวน์โหลดเพื่อส่งไปยัง Internet File Downloader"
+  },
+  "capture_missing_data": {
+    "message": "ไม่มีข้อมูลการจับ กรุณาจับใหม่จากหน้าเว็บ"
+  },
+  "capture_no_items": {
+    "message": "ไม่พบรายการสื่อ"
+  },
+  "capture_source": {
+    "message": "แหล่งที่มา"
+  },
+  "capture_download_btn": {
+    "message": "ดาวน์โหลด"
+  },
+  "capture_sent_btn": {
+    "message": "ส่งแล้ว"
+  },
+  "live_panel_title": {
+    "message": "ไฟล์วิดีโอที่จับได้"
+  },
+  "live_download_btn": {
+    "message": "ดาวน์โหลด"
+  },
+  "live_sent_btn": {
+    "message": "ส่งแล้ว"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 จากลิงก์ที่เลือก"
+  },
+  "selection_pick_label": {
+    "message": "เลือกต่อหน้า"
+  },
+  "selection_pick_n": {
+    "message": "ลำดับ {n}"
+  },
+  "selection_select_all": {
+    "message": "เลือกทั้งหมด"
+  },
+  "selection_clear_all": {
+    "message": "ล้าง"
+  },
+  "selection_batch_download": {
+    "message": "ดาวน์โหลดแบบชุด"
+  },
+  "selection_probe_progress": {
+    "message": "กำลังตรวจสอบลิงก์... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "ตรวจสอบเสร็จแล้ว"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — การตั้งค่า"
+  },
+  "optionsBridgeHeading": {
+    "message": "การตั้งค่า Bridge"
+  },
+  "optionsBridgeIntro": {
+    "message": "ตั้งค่า Bridge port ให้ตรงกับแอปเดสก์ท็อป ค่าเริ่มต้น: 26519"
+  },
+  "labelBridgePort": {
+    "message": "ท่าเรือสะพาน"
+  },
+  "hintBridgePort": {
+    "message": "ต้องตรงกับพอร์ตตัวช่วยเบราว์เซอร์ของแอป ค่าเริ่มต้นคือ 26519"
+  },
+  "headingPrivacy": {
+    "message": "ส่งต่อไปยังแอป"
+  },
+  "introPrivacy": {
+    "message": "ไม่จำเป็น. เปิดใช้งานเฉพาะในกรณีที่ไซต์ต้องการข้อมูลระบุตัวตนของเบราว์เซอร์หรือคุกกี้การเข้าสู่ระบบเดียวกันสำหรับการดาวน์โหลด"
+  },
+  "labelSendUa": {
+    "message": "รวม User-Agent เมื่อส่งการดาวน์โหลดไปยังแอป"
+  },
+  "hintSendUa": {
+    "message": "ปิดโดยค่าเริ่มต้น เปิดหากเซิร์ฟเวอร์ปฏิเสธคำขอโดยไม่มีลายเซ็นเบราว์เซอร์ที่ตรงกัน"
+  },
+  "labelSendCookie": {
+    "message": "รวมคุกกี้เมื่อส่งการดาวน์โหลดไปยังแอพ"
+  },
+  "hintSendCookie": {
+    "message": "ปิดโดยค่าเริ่มต้น เปิดสำหรับการดาวน์โหลดที่ลงชื่อเข้าใช้ ข้อมูลจะถูกส่งไปยังแอปบนคอมพิวเตอร์เครื่องนี้เท่านั้น"
+  },
+  "labelSendReferer": {
+    "message": "รวมผู้อ้างอิงเมื่อส่งการดาวน์โหลดไปยังแอป"
+  },
+  "hintSendReferer": {
+    "message": "เปิดตามค่าเริ่มต้น ช่วยให้ไซต์ตรวจสอบแหล่งที่มาของคำขอ"
+  },
+  "optionsBridgeHintApply": {
+    "message": "บันทึกแล้วมีผลทันที"
+  },
+  "btnSave": {
+    "message": "บันทึก"
+  },
+  "statusSaved": {
+    "message": "บันทึกแล้ว"
+  },
+  "statusSaveError": {
+    "message": "ไม่สามารถบันทึกการตั้งค่าได้ โปรดลองอีกครั้ง"
+  }
+}

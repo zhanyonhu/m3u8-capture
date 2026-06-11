@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "التقاط IFD M3U8"
+  },
+  "extDescription": {
+    "message": "يلتقط روابط m3u8 من الروابط المحددة، ويحلل قائمة الوسائط، ويرسل العناصر المختارة إلى Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "تنزيل هذا m3u8 باستخدام Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "التقاط m3u8 من الروابط المحددة"
+  },
+  "capture_no_m3u8_found": {
+    "message": "لم يتم العثور على روابط m3u8 في الروابط المحددة أو طلبات الصفحة."
+  },
+  "capture_parse_failed": {
+    "message": "فشل التحليل"
+  },
+  "capture_page_title": {
+    "message": "قائمة وسائط M3U8"
+  },
+  "capture_page_desc": {
+    "message": "حدّد عنصرًا ثم اضغط تنزيل لإرساله إلى Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "بيانات الالتقاط مفقودة. يرجى إعادة الالتقاط من صفحة الويب."
+  },
+  "capture_no_items": {
+    "message": "لم يتم العثور على عناصر وسائط."
+  },
+  "capture_source": {
+    "message": "المصدر"
+  },
+  "capture_download_btn": {
+    "message": "تنزيل"
+  },
+  "capture_sent_btn": {
+    "message": "تم الإرسال"
+  },
+  "live_panel_title": {
+    "message": "ملف فيديو تم التقاطه"
+  },
+  "live_download_btn": {
+    "message": "تنزيل"
+  },
+  "live_sent_btn": {
+    "message": "تم الإرسال"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 من الروابط المحددة"
+  },
+  "selection_pick_label": {
+    "message": "اختيار لكل صفحة"
+  },
+  "selection_pick_n": {
+    "message": "رقم {n}"
+  },
+  "selection_select_all": {
+    "message": "تحديد الكل"
+  },
+  "selection_clear_all": {
+    "message": "مسح"
+  },
+  "selection_batch_download": {
+    "message": "تنزيل دفعي"
+  },
+  "selection_probe_progress": {
+    "message": "جاري فحص الروابط... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "اكتمل الفحص"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — الإعدادات"
+  },
+  "optionsBridgeHeading": {
+    "message": "إعدادات الجسر"
+  },
+  "optionsBridgeIntro": {
+    "message": "اضبط نفس منفذ الجسر الخاص بتطبيق سطح المكتب. الافتراضي: 26519."
+  },
+  "labelBridgePort": {
+    "message": "ميناء الجسر"
+  },
+  "hintBridgePort": {
+    "message": "يجب أن يتطابق مع منفذ مساعد متصفح التطبيق. الافتراضي هو 26519."
+  },
+  "headingPrivacy": {
+    "message": "إحالتها إلى التطبيق"
+  },
+  "introPrivacy": {
+    "message": "خياري. قم بالتمكين فقط إذا كان الموقع يتطلب نفس هوية المتصفح أو ملفات تعريف الارتباط لتسجيل الدخول للتنزيل."
+  },
+  "labelSendUa": {
+    "message": "قم بتضمين وكيل المستخدم عند إرسال التنزيل إلى التطبيق"
+  },
+  "hintSendUa": {
+    "message": "إيقاف بشكل افتراضي. يتم تفعيله إذا رفض الخادم الطلبات بدون توقيع متصفح مطابق."
+  },
+  "labelSendCookie": {
+    "message": "قم بتضمين ملفات تعريف الارتباط عند إرسال التنزيل إلى التطبيق"
+  },
+  "hintSendCookie": {
+    "message": "إيقاف بشكل افتراضي. قم بتشغيل التنزيلات التي تم تسجيل الدخول إليها. يتم إرسال البيانات فقط إلى التطبيق الموجود على هذا الكمبيوتر."
+  },
+  "labelSendReferer": {
+    "message": "قم بتضمين المُحيل عند إرسال التنزيل إلى التطبيق"
+  },
+  "hintSendReferer": {
+    "message": "قيد التشغيل بشكل افتراضي. يساعد المواقع على التحقق من صحة مصدر الطلب."
+  },
+  "optionsBridgeHintApply": {
+    "message": "تُطبَّق التغييرات فور الحفظ."
+  },
+  "btnSave": {
+    "message": "يحفظ"
+  },
+  "statusSaved": {
+    "message": "أنقذ"
+  },
+  "statusSaveError": {
+    "message": "لا يمكن حفظ الإعدادات. يرجى المحاولة مرة أخرى."
+  }
+}

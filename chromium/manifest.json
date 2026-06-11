@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.5",
+  "default_locale": "en",
+  "minimum_chrome_version": "102",
+  "icons": {
+    "16": "icons/ifd-logo-16.png",
+    "32": "icons/ifd-logo-32.png",
+    "48": "icons/ifd-logo-48.png",
+    "128": "icons/ifd-logo-128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "cookies",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "16": "icons/ifd-logo-16.png",
+      "32": "icons/ifd-logo-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-capture.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

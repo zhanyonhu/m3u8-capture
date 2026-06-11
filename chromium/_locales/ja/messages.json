@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD M3U8 キャプチャ"
+  },
+  "extDescription": {
+    "message": "選択したリンクから m3u8 リンクを取得し、メディアリストを解析して選択項目を Internet File Downloader に送信します。"
+  },
+  "ctx_download_m3u8_link": {
+    "message": "この m3u8 を Internet File Downloader でダウンロード"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "選択リンクから m3u8 をキャプチャ"
+  },
+  "capture_no_m3u8_found": {
+    "message": "選択したリンクまたはそのページリクエスト内に m3u8 リンクが見つかりませんでした。"
+  },
+  "capture_parse_failed": {
+    "message": "解析に失敗しました"
+  },
+  "capture_page_title": {
+    "message": "M3U8 メディアリスト"
+  },
+  "capture_page_desc": {
+    "message": "項目を選択してダウンロードを押すと Internet File Downloader に送信されます。"
+  },
+  "capture_missing_data": {
+    "message": "キャプチャデータがありません。Web ページから再度キャプチャしてください。"
+  },
+  "capture_no_items": {
+    "message": "メディア項目が見つかりませんでした。"
+  },
+  "capture_source": {
+    "message": "ソース"
+  },
+  "capture_download_btn": {
+    "message": "ダウンロード"
+  },
+  "capture_sent_btn": {
+    "message": "送信済み"
+  },
+  "live_panel_title": {
+    "message": "キャプチャした動画ファイル"
+  },
+  "live_download_btn": {
+    "message": "ダウンロード"
+  },
+  "live_sent_btn": {
+    "message": "送信済み"
+  },
+  "selection_panel_title": {
+    "message": "選択リンクの M3U8"
+  },
+  "selection_pick_label": {
+    "message": "ページごとに選択"
+  },
+  "selection_pick_n": {
+    "message": "番号 {n}"
+  },
+  "selection_select_all": {
+    "message": "すべて選択"
+  },
+  "selection_clear_all": {
+    "message": "クリア"
+  },
+  "selection_batch_download": {
+    "message": "一括ダウンロード"
+  },
+  "selection_probe_progress": {
+    "message": "リンクを解析中... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "解析完了"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — 設定"
+  },
+  "optionsBridgeHeading": {
+    "message": "ブリッジ設定"
+  },
+  "optionsBridgeIntro": {
+    "message": "デスクトップアプリと同じブリッジポートを設定してください。既定値: 26519。"
+  },
+  "labelBridgePort": {
+    "message": "ブリッジポート"
+  },
+  "hintBridgePort": {
+    "message": "アプリのブラウザー ヘルパー ポートと一致する必要があります。デフォルトは 26519 です。"
+  },
+  "headingPrivacy": {
+    "message": "アプリに転送されました"
+  },
+  "introPrivacy": {
+    "message": "オプション。サイトがダウンロードに同じブラウザ ID またはログイン Cookie を必要とする場合にのみ有効にします。"
+  },
+  "labelSendUa": {
+    "message": "アプリにダウンロードを送信するときにユーザーエージェントを含める"
+  },
+  "hintSendUa": {
+    "message": "デフォルトではオフです。ブラウザ署名が一致しないリクエストをサーバーが拒否する場合にオンにします。"
+  },
+  "labelSendCookie": {
+    "message": "アプリにダウンロードを送信するときに Cookie を含める"
+  },
+  "hintSendCookie": {
+    "message": "デフォルトではオフです。サインインしたダウンロードをオンにします。データはこのコンピューター上のアプリにのみ送信されます。"
+  },
+  "labelSendReferer": {
+    "message": "アプリにダウンロードを送信するときにリファラーを含める"
+  },
+  "hintSendReferer": {
+    "message": "デフォルトではオンです。サイトがリクエスト ソースを検証するのに役立ちます。"
+  },
+  "optionsBridgeHintApply": {
+    "message": "保存後すぐに反映されます。"
+  },
+  "btnSave": {
+    "message": "保存"
+  },
+  "statusSaved": {
+    "message": "保存されました"
+  },
+  "statusSaveError": {
+    "message": "設定を保存できませんでした。もう一度試してください。"
+  }
+}

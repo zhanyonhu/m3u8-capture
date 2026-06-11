@@ -1,0 +1,128 @@
+{
+  "extName": {
+    "message": "IFD M3U8 Capture"
+  },
+  "extDescription": {
+    "message": "Kunin ang m3u8 links mula sa napiling link, i-parse ang media list, at ipadala sa Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "I-download ang m3u8 na ito gamit ang Internet File Downloader"
+  },
+  "ctx_capture_m3u8_link": {
+    "message": "Kunin ang m3u8"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Kunin ang m3u8 mula sa napiling links"
+  },
+  "capture_no_m3u8_found": {
+    "message": "Walang m3u8 link sa napiling links o sa kanilang page requests."
+  },
+  "capture_parse_failed": {
+    "message": "Nabigo ang parse"
+  },
+  "capture_page_title": {
+    "message": "Listahan ng M3U8 media"
+  },
+  "capture_page_desc": {
+    "message": "Pumili ng item at i-click ang download para ipadala sa Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Nawawala ang capture data. Muling kunin mula sa webpage."
+  },
+  "capture_no_items": {
+    "message": "Walang nahanap na media item."
+  },
+  "capture_source": {
+    "message": "Pinagmulan"
+  },
+  "capture_download_btn": {
+    "message": "I-download"
+  },
+  "capture_sent_btn": {
+    "message": "Naipadala"
+  },
+  "live_panel_title": {
+    "message": "Nakuhang video file"
+  },
+  "live_download_btn": {
+    "message": "I-download"
+  },
+  "live_sent_btn": {
+    "message": "Naipadala"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 mula sa napiling links"
+  },
+  "selection_pick_label": {
+    "message": "Pumili bawat page"
+  },
+  "selection_pick_n": {
+    "message": "Blg.{n}"
+  },
+  "selection_select_all": {
+    "message": "Piliin lahat"
+  },
+  "selection_clear_all": {
+    "message": "Linisin"
+  },
+  "selection_batch_download": {
+    "message": "Batch download"
+  },
+  "selection_probe_progress": {
+    "message": "Sinusuri ang links... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Tapos na ang probe"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — settings"
+  },
+  "optionsBridgeHeading": {
+    "message": "Mga setting ng bridge"
+  },
+  "optionsBridgeIntro": {
+    "message": "Itakda ang parehong bridge port gaya ng desktop app. Default ay 26519."
+  },
+  "labelBridgePort": {
+    "message": "Bridge port"
+  },
+  "hintBridgePort": {
+    "message": "Dapat tumugma sa Browser helper port ng app. Default ay 26519."
+  },
+  "headingPrivacy": {
+    "message": "Ipinapasa sa app"
+  },
+  "introPrivacy": {
+    "message": "Opsyonal. I-on lang kung kailangan ng site ang parehong browser identity o login cookies para sa download."
+  },
+  "labelSendUa": {
+    "message": "Isama ang User-Agent kapag nagpapadala ng download sa app"
+  },
+  "hintSendUa": {
+    "message": "Off bilang default. I-on kung tinatanggihan ng server ang request na walang tumugmang browser signature."
+  },
+  "labelSendCookie": {
+    "message": "Isama ang cookies kapag nagpapadala ng download sa app"
+  },
+  "hintSendCookie": {
+    "message": "Off bilang default. I-on para sa signed-in download. Ipapadala lang sa app sa computer na ito."
+  },
+  "labelSendReferer": {
+    "message": "Isama ang Referer kapag nagpapadala ng download sa app"
+  },
+  "hintSendReferer": {
+    "message": "On bilang default. Tumutulong sa mga site na i-validate ang pinagmulan ng request."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Magkakabisa agad ang mga pagbabago pagkatapos i-save."
+  },
+  "btnSave": {
+    "message": "I-save"
+  },
+  "statusSaved": {
+    "message": "Na-save"
+  },
+  "statusSaveError": {
+    "message": "Hindi ma-save ang settings. Subukan muli."
+  }
+}

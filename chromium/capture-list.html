@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M3U8 Capture</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f5f7fb; color: #1f2937; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 8px; font-size: 22px; }
+    .desc { margin: 0 0 16px; color: #4b5563; }
+    .card { background: #fff; border-radius: 10px; padding: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 10px; }
+    .title { font-size: 14px; line-height: 1.5; word-break: break-all; }
+    .meta { margin-top: 6px; font-size: 12px; color: #6b7280; word-break: break-all; }
+    .row { display: flex; gap: 10px; align-items: center; justify-content: space-between; }
+    .btn { border: 0; background: #2563eb; color: #fff; border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 13px; }
+    .btn:disabled { opacity: .55; cursor: not-allowed; }
+    .empty { padding: 16px; color: #6b7280; background: #fff; border-radius: 10px; }
+    .tag { display: inline-block; font-size: 12px; padding: 2px 6px; border-radius: 6px; background: #eef2ff; color: #4338ca; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 id="title">M3U8 Media List</h1>
+    <p id="desc" class="desc">Select an item and click download to send it to Internet File Downloader.</p>
+    <div id="list"></div>
+  </div>
+  <script src="capture-list.js"></script>
+</body>
+</html>

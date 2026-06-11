@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "IFD M3U8 Trợ lý bắt liên kết"
+  },
+  "extDescription": {
+    "message": "Thu thập liên kết m3u8 từ các liên kết đã chọn, phân tích danh sách media và gửi mục đã chọn tới Internet File Downloader."
+  },
+  "ctx_download_m3u8_link": {
+    "message": "Tải m3u8 này bằng Internet File Downloader"
+  },
+  "ctx_capture_m3u8_selection": {
+    "message": "Thu thập m3u8 từ liên kết đã chọn"
+  },
+  "capture_no_m3u8_found": {
+    "message": "Không tìm thấy liên kết m3u8 trong các liên kết đã chọn hoặc yêu cầu của trang."
+  },
+  "capture_parse_failed": {
+    "message": "Phân tích thất bại"
+  },
+  "capture_page_title": {
+    "message": "Danh sách media M3U8"
+  },
+  "capture_page_desc": {
+    "message": "Chọn một mục và bấm tải xuống để gửi tới Internet File Downloader."
+  },
+  "capture_missing_data": {
+    "message": "Thiếu dữ liệu thu thập. Vui lòng chạy lại từ trang web."
+  },
+  "capture_no_items": {
+    "message": "Không tìm thấy mục media."
+  },
+  "capture_source": {
+    "message": "Nguồn"
+  },
+  "capture_download_btn": {
+    "message": "Tải xuống"
+  },
+  "capture_sent_btn": {
+    "message": "Đã gửi"
+  },
+  "live_panel_title": {
+    "message": "Tệp video đã thu thập"
+  },
+  "live_download_btn": {
+    "message": "Tải xuống"
+  },
+  "live_sent_btn": {
+    "message": "Đã gửi"
+  },
+  "selection_panel_title": {
+    "message": "M3U8 từ liên kết đã chọn"
+  },
+  "selection_pick_label": {
+    "message": "Chọn theo trang"
+  },
+  "selection_pick_n": {
+    "message": "Số {n}"
+  },
+  "selection_select_all": {
+    "message": "Chọn tất cả"
+  },
+  "selection_clear_all": {
+    "message": "Xóa"
+  },
+  "selection_batch_download": {
+    "message": "Tải theo lô"
+  },
+  "selection_probe_progress": {
+    "message": "Đang quét liên kết... ({done}/{total})"
+  },
+  "selection_probe_done": {
+    "message": "Quét xong"
+  },
+  "optionsTitle": {
+    "message": "IFD M3U8 Capture — cài đặt"
+  },
+  "optionsBridgeHeading": {
+    "message": "Cài đặt bridge"
+  },
+  "optionsBridgeIntro": {
+    "message": "Đặt cùng bridge port với ứng dụng desktop. Mặc định: 26519."
+  },
+  "labelBridgePort": {
+    "message": "Cảng cầu"
+  },
+  "hintBridgePort": {
+    "message": "Phải khớp với cổng trợ giúp Trình duyệt của ứng dụng. Mặc định là 26519."
+  },
+  "headingPrivacy": {
+    "message": "Đã chuyển tiếp đến ứng dụng"
+  },
+  "introPrivacy": {
+    "message": "Không bắt buộc. Chỉ bật nếu trang web yêu cầu cùng thông tin nhận dạng trình duyệt hoặc cookie đăng nhập để tải xuống."
+  },
+  "labelSendUa": {
+    "message": "Bao gồm Tác nhân người dùng khi gửi bản tải xuống ứng dụng"
+  },
+  "hintSendUa": {
+    "message": "Tắt theo mặc định. Bật nếu máy chủ từ chối yêu cầu không có chữ ký trình duyệt phù hợp."
+  },
+  "labelSendCookie": {
+    "message": "Bao gồm cookie khi gửi tải xuống ứng dụng"
+  },
+  "hintSendCookie": {
+    "message": "Tắt theo mặc định. Bật để tải xuống khi đăng nhập. Dữ liệu chỉ được gửi đến ứng dụng trên máy tính này."
+  },
+  "labelSendReferer": {
+    "message": "Bao gồm Người giới thiệu khi gửi tải xuống ứng dụng"
+  },
+  "hintSendReferer": {
+    "message": "Bật theo mặc định. Giúp các trang web xác thực nguồn yêu cầu."
+  },
+  "optionsBridgeHintApply": {
+    "message": "Thay đổi có hiệu lực ngay sau khi lưu."
+  },
+  "btnSave": {
+    "message": "Cứu"
+  },
+  "statusSaved": {
+    "message": "Đã lưu"
+  },
+  "statusSaveError": {
+    "message": "Không thể lưu cài đặt. Vui lòng thử lại."
+  }
+}
